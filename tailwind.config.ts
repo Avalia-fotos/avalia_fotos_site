@@ -9,13 +9,17 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          50: "#eef7ff",
-          100: "#d8ecff",
-          500: "#2563eb",
-          600: "#1d4ed8",
-          700: "#1e40af",
-          800: "#1e3a8a",
+          50: "#fff4f0",
+          100: "#ffe0d1",
+          400: "#ff7a33",
+          500: "#ff4c00",
+          600: "#e64400",
+          700: "#cc3d00",
+          800: "#b33500",
         },
+      },
+      fontFamily: {
+        sans: ["var(--font-poppins)", "sans-serif"],
       },
     },
   },
